@@ -9,12 +9,14 @@ import { InMemoryApiService } from './in-memory-api.service';
 import { UsersService } from './users.service';
 import { UserCrudComponent } from './user-crud/user-crud.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UserDetalComponent } from './user-detal/user-detal.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserCrudComponent
+    UserCrudComponent,
+    UserDetalComponent
   ],
   imports: [
     BrowserModule,
