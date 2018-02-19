@@ -22,7 +22,10 @@ export class UserCrudComponent implements OnInit {
   }
 
   remove(user: User){
-    console.log(user);
+    this.usersService.deleteUser(user).subscribe(() => {
+      this.users = this.users.filter(u => user.id !== u.id);
+    })
+
   }
 
 }
