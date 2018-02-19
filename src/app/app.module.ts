@@ -13,6 +13,7 @@ import { UserDetalComponent } from './user-detal/user-detal.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { UserEditComponent } from './user-edit/user-edit.component';
+import { UserAddComponent } from './user-add/user-add.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { UserEditComponent } from './user-edit/user-edit.component';
     UserCrudComponent,
     UserDetalComponent,
     UserFormComponent,
-    UserEditComponent
+    UserEditComponent,
+    UserAddComponent
   ],
   imports: [
     BrowserModule,
